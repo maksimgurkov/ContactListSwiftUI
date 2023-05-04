@@ -15,7 +15,7 @@ struct Person: Identifiable {
     let phone: String
     let email: String
     
-    var fulMame: String {
+    var fulName: String {
         "\(name) \(surname)"
     }
     

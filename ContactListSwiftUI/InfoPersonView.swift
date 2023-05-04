@@ -21,7 +21,7 @@ struct InfoPersonView: View {
                 Text(person.phone)
                 Text(person.email)
             }
-            .navigationTitle(person.fulMame)
+            .navigationTitle(person.fulName)
         }
     }
 }
